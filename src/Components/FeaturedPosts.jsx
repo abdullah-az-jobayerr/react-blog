@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+
 
 const FeaturedPosts = () => {
   const featuredPosts = [
@@ -113,9 +115,11 @@ const FeaturedPosts = () => {
         </div>
 
         <div className="view-all">
-          <button className="btn-view-all">
-            View All Posts
-          </button>
+          <Link to='/Blog.jsx'>
+            <button className="btn-view-all">
+              View All Posts
+            </button>
+          </Link>
         </div>
       </div>
     </section>
