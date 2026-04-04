@@ -115,7 +115,7 @@ const FeaturedPosts = () => {
         </div>
 
         <div className="view-all">
-          <Link to='/Blog.jsx'>
+          <Link to='/blog'>
             <button className="btn-view-all">
               View All Posts
             </button>
